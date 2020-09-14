@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Release/Safenotes.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="537 300">
+    <property name="MemberName" />
+    <property name="CanFocus">True</property>
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.ColorSelection" id="colorselection1">
+        <property name="MemberName" />
+        <property name="HasOpacityControl">True</property>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
